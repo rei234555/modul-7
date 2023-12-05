@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "TodoList-Modul7",
+    "name": "My Todo",
     "slug": "TodoList-Modul7",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash-custom.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/splash-custom.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.reinanto.TodoListModul7"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f2d02fdb-71eb-4413-a302-280b8d31ed05"
+      }
     }
   }
 }
